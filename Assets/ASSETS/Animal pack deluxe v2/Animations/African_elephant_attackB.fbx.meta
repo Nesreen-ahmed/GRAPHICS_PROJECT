@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: b31d697be276ac044a272e56611d05c0
+timeCreated: 1544549442
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: african_elephant_exp1_0_0
+    100002: backAnkle_L
+    100004: backAnkle_R
+    100006: backHip_L
+    100008: backHip_R
+    100010: backKnee_L
+    100012: backKnee_R
+    100014: backRump_L
+    100016: backRump_R
+    100018: backToes_L
+    100020: backToes_R
+    100022: backToesEnd_L
+    100024: backToesEnd_R
+    100026: Chest_M
+    100028: //RootNode
+    100030: Ear_L
+    100032: Ear_R
+    100034: EarEnd_L
+    100036: EarEnd_R
+    100038: EarPart1_L
+    100040: EarPart1_R
+    100042: EarPart2_L
+    100044: EarPart2_R
+    100046: frontAnkle_L
+    100048: frontAnkle_R
+    100050: frontHip_L
+    100052: frontHip_R
+    100054: frontKnee_L
+    100056: frontKnee_R
+    100058: frontRump_L
+    100060: frontRump_R
+    100062: frontToes_L
+    100064: frontToes_R
+    100066: frontToesEnd_L
+    100068: frontToesEnd_R
+    100070: Head_M
+    100072: HeadEnd_M
+    100074: Jaw_M
+    100076: JawEnd_M
+    100078: Neck_M
+    100080: NeckPart1_M
+    100082: NeckPart2_M
+    100084: nose1
+    100086: nose2
+    100088: nose3
+    100090: nose4
+    100092: nose5
+    100094: nose6
+    100096: nose7
+    100098: nose8
+    100100: Root_M
+    100102: RootPart1_M
+    100104: Spine1_M
+    100106: Spine1Part1_M
+    100108: Tail0_M
+    100110: Tail1_M
+    100112: Tail2_M
+    100114: Tail3_M
+    100116: Tail4_M
+    100118: Tail5_M
+    400000: african_elephant_exp1_0_0
+    400002: backAnkle_L
+    400004: backAnkle_R
+    400006: backHip_L
+    400008: backHip_R
+    400010: backKnee_L
+    400012: backKnee_R
+    400014: backRump_L
+    400016: backRump_R
+    400018: backToes_L
+    400020: backToes_R
+    400022: backToesEnd_L
+    400024: backToesEnd_R
+    400026: Chest_M
+    400028: //RootNode
+    400030: Ear_L
+    400032: Ear_R
+    400034: EarEnd_L
+    400036: EarEnd_R
+    400038: EarPart1_L
+    400040: EarPart1_R
+    400042: EarPart2_L
+    400044: EarPart2_R
+    400046: frontAnkle_L
+    400048: frontAnkle_R
+    400050: frontHip_L
+    400052: frontHip_R
+    400054: frontKnee_L
+    400056: frontKnee_R
+    400058: frontRump_L
+    400060: frontRump_R
+    400062: frontToes_L
+    400064: frontToes_R
+    400066: frontToesEnd_L
+    400068: frontToesEnd_R
+    400070: Head_M
+    400072: HeadEnd_M
+    400074: Jaw_M
+    400076: JawEnd_M
+    400078: Neck_M
+    400080: NeckPart1_M
+    400082: NeckPart2_M
+    400084: nose1
+    400086: nose2
+    400088: nose3
+    400090: nose4
+    400092: nose5
+    400094: nose6
+    400096: nose7
+    400098: nose8
+    400100: Root_M
+    400102: RootPart1_M
+    400104: Spine1_M
+    400106: Spine1Part1_M
+    400108: Tail0_M
+    400110: Tail1_M
+    400112: Tail2_M
+    400114: Tail3_M
+    400116: Tail4_M
+    400118: Tail5_M
+    4300000: african_elephant_exp1_0_0
+    7400000: African_elephant_attackB
+    9500000: //RootNode
+    13700000: african_elephant_exp1_0_0
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default2
+    second: {fileID: 2100000, guid: ab1336ea69966684987c53a4e1fe745f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: African_elephant_attackB
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

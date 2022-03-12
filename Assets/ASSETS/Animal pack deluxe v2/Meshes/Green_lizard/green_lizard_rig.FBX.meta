@@ -1,0 +1,279 @@
+fileFormatVersion: 2
+guid: 607759a735d33da49b1d0334bcbef534
+timeCreated: 1554832180
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Lizard
+    100004: LizardHead5656462
+    100006: LizardHeadBone001cc545
+    100008: LizardHeadBone00223xcx
+    100010: LizardLFrontLegCollarbone12321325
+    100012: LizardLFrontLegDigit01
+    100014: LizardLFrontLegDigit02
+    100016: LizardLFrontLegDigit037676
+    100018: LizardLFrontLegDigit11
+    100020: LizardLFrontLegDigit12
+    100022: LizardLFrontLegDigit13676588
+    100024: LizardLFrontLegDigit21
+    100026: LizardLFrontLegDigit22
+    100028: LizardLFrontLegDigit237654
+    100030: LizardLFrontLegDigit41
+    100032: LizardLFrontLegDigit42
+    100034: LizardLFrontLegDigit4367989
+    100036: LizardLFrontLegLower343431
+    100038: LizardLFrontLegPalm2767667
+    100040: LizardLFrontLegPlatform
+    100042: LizardLFrontLegUpper66554
+    100044: LizardLLegAnkle243433
+    100046: LizardLLegCalf323
+    100048: LizardLLegDigit11
+    100050: LizardLLegDigit12
+    100052: LizardLLegDigit13654645677
+    100054: LizardLLegDigit21
+    100056: LizardLLegDigit22
+    100058: LizardLLegDigit236633
+    100060: LizardLLegDigit31
+    100062: LizardLLegDigit32
+    100064: LizardLLegDigit3369989
+    100066: LizardLLegDigit41
+    100068: LizardLLegDigit425766
+    100070: LizardLLegDigit43
+    100072: LizardLLegPlatform
+    100074: LizardLLegThigh11
+    100076: LizardNeck18877
+    100078: LizardNeck287879
+    100080: LizardNeck3878565
+    100082: LizardPelvis
+    100084: LizardRFrontLegCollarbone5646788
+    100086: LizardRFrontLegDigit01
+    100088: LizardRFrontLegDigit02
+    100090: LizardRFrontLegDigit038984
+    100092: LizardRFrontLegDigit11
+    100094: LizardRFrontLegDigit12
+    100096: LizardRFrontLegDigit13124
+    100098: LizardRFrontLegDigit21
+    100100: LizardRFrontLegDigit22
+    100102: LizardRFrontLegDigit2365643
+    100104: LizardRFrontLegDigit41
+    100106: LizardRFrontLegDigit42
+    100108: LizardRFrontLegDigit431231355
+    100110: LizardRFrontLegLower65633
+    100112: LizardRFrontLegPalm276688768
+    100114: LizardRFrontLegPlatform
+    100116: LizardRFrontLegUpper676445
+    100118: LizardRibcage67676
+    100120: LizardRRearLegAnkle254423
+    100122: LizardRRearLegCalf12cxx2
+    100124: LizardRRearLegDigit11
+    100126: LizardRRearLegDigit12
+    100128: LizardRRearLegDigit1312xx
+    100130: LizardRRearLegDigit21123a
+    100132: LizardRRearLegDigit2232c
+    100134: LizardRRearLegDigit23aw23
+    100136: LizardRRearLegDigit3132
+    100138: LizardRRearLegDigit323241
+    100140: LizardRRearLegDigit33552
+    100142: LizardRRearLegDigit41123
+    100144: LizardRRearLegDigit42aa
+    100146: LizardRRearLegDigit431323
+    100148: LizardRRearLegPlatform
+    100150: LizardRRearLegThigh55344
+    100152: LizardSpine13256
+    100154: LizardSpine276764
+    100156: LizardSpine345453
+    100158: LizardSpine4454767
+    100160: LizardSpine5454577
+    100162: LizardSpine61331
+    100164: LizardTail156223
+    100166: LizardTail2
+    100168: LizardTail3
+    100170: LizardTail4
+    100172: LizardTail5
+    100174: LizardTail6
+    100176: LizardTail7
+    100178: LizardTail8
+    100180: Object001
+    100182: Particle View 001
+    100184: tounge11323
+    400000: //RootNode
+    400002: Lizard
+    400004: LizardHead5656462
+    400006: LizardHeadBone001cc545
+    400008: LizardHeadBone00223xcx
+    400010: LizardLFrontLegCollarbone12321325
+    400012: LizardLFrontLegDigit01
+    400014: LizardLFrontLegDigit02
+    400016: LizardLFrontLegDigit037676
+    400018: LizardLFrontLegDigit11
+    400020: LizardLFrontLegDigit12
+    400022: LizardLFrontLegDigit13676588
+    400024: LizardLFrontLegDigit21
+    400026: LizardLFrontLegDigit22
+    400028: LizardLFrontLegDigit237654
+    400030: LizardLFrontLegDigit41
+    400032: LizardLFrontLegDigit42
+    400034: LizardLFrontLegDigit4367989
+    400036: LizardLFrontLegLower343431
+    400038: LizardLFrontLegPalm2767667
+    400040: LizardLFrontLegPlatform
+    400042: LizardLFrontLegUpper66554
+    400044: LizardLLegAnkle243433
+    400046: LizardLLegCalf323
+    400048: LizardLLegDigit11
+    400050: LizardLLegDigit12
+    400052: LizardLLegDigit13654645677
+    400054: LizardLLegDigit21
+    400056: LizardLLegDigit22
+    400058: LizardLLegDigit236633
+    400060: LizardLLegDigit31
+    400062: LizardLLegDigit32
+    400064: LizardLLegDigit3369989
+    400066: LizardLLegDigit41
+    400068: LizardLLegDigit425766
+    400070: LizardLLegDigit43
+    400072: LizardLLegPlatform
+    400074: LizardLLegThigh11
+    400076: LizardNeck18877
+    400078: LizardNeck287879
+    400080: LizardNeck3878565
+    400082: LizardPelvis
+    400084: LizardRFrontLegCollarbone5646788
+    400086: LizardRFrontLegDigit01
+    400088: LizardRFrontLegDigit02
+    400090: LizardRFrontLegDigit038984
+    400092: LizardRFrontLegDigit11
+    400094: LizardRFrontLegDigit12
+    400096: LizardRFrontLegDigit13124
+    400098: LizardRFrontLegDigit21
+    400100: LizardRFrontLegDigit22
+    400102: LizardRFrontLegDigit2365643
+    400104: LizardRFrontLegDigit41
+    400106: LizardRFrontLegDigit42
+    400108: LizardRFrontLegDigit431231355
+    400110: LizardRFrontLegLower65633
+    400112: LizardRFrontLegPalm276688768
+    400114: LizardRFrontLegPlatform
+    400116: LizardRFrontLegUpper676445
+    400118: LizardRibcage67676
+    400120: LizardRRearLegAnkle254423
+    400122: LizardRRearLegCalf12cxx2
+    400124: LizardRRearLegDigit11
+    400126: LizardRRearLegDigit12
+    400128: LizardRRearLegDigit1312xx
+    400130: LizardRRearLegDigit21123a
+    400132: LizardRRearLegDigit2232c
+    400134: LizardRRearLegDigit23aw23
+    400136: LizardRRearLegDigit3132
+    400138: LizardRRearLegDigit323241
+    400140: LizardRRearLegDigit33552
+    400142: LizardRRearLegDigit41123
+    400144: LizardRRearLegDigit42aa
+    400146: LizardRRearLegDigit431323
+    400148: LizardRRearLegPlatform
+    400150: LizardRRearLegThigh55344
+    400152: LizardSpine13256
+    400154: LizardSpine276764
+    400156: LizardSpine345453
+    400158: LizardSpine4454767
+    400160: LizardSpine5454577
+    400162: LizardSpine61331
+    400164: LizardTail156223
+    400166: LizardTail2
+    400168: LizardTail3
+    400170: LizardTail4
+    400172: LizardTail5
+    400174: LizardTail6
+    400176: LizardTail7
+    400178: LizardTail8
+    400180: Object001
+    400182: Particle View 001
+    400184: tounge11323
+    4300000: Object001
+    9500000: //RootNode
+    13700000: Object001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default
+    second: {fileID: 2100000, guid: 7e5409ba0ed93284fba8bc5300f40d35, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

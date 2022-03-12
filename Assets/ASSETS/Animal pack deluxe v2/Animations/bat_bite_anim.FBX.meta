@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: 88f00cc992df0af438665498fe245018
+timeCreated: 1554805094
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: English Dragon
+    100004: English DragonHead
+    100006: English DragonHeadBone001
+    100008: English DragonHeadBone002
+    100010: English DragonHeadBone003
+    100012: English DragonHeadBone004
+    100014: English DragonLArm1
+    100016: English DragonLArm2
+    100018: English DragonLArmCollarbone
+    100020: English DragonLArmDigit01
+    100022: English DragonLArmDigit02
+    100024: English DragonLArmDigit03
+    100026: English DragonLArmDigit41
+    100028: English DragonLArmDigit42
+    100030: English DragonLArmDigit43
+    100032: English DragonLArmDigit61
+    100034: English DragonLArmDigit62
+    100036: English DragonLArmDigit63
+    100038: English DragonLArmPalm
+    100040: English DragonLLeg1
+    100042: English DragonLLeg2
+    100044: English DragonLLegPalm
+    100046: English DragonLLegPlatform
+    100048: English DragonPelvis
+    100050: English DragonRArm1
+    100052: English DragonRArm2
+    100054: English DragonRArmCollarbone
+    100056: English DragonRArmDigit01
+    100058: English DragonRArmDigit02
+    100060: English DragonRArmDigit03
+    100062: English DragonRArmDigit41
+    100064: English DragonRArmDigit42
+    100066: English DragonRArmDigit43
+    100068: English DragonRArmDigit61
+    100070: English DragonRArmDigit62
+    100072: English DragonRArmDigit63
+    100074: English DragonRArmPalm
+    100076: English DragonRibcage
+    100078: English DragonRLeg1
+    100080: English DragonRLeg2
+    100082: English DragonRLegPalm
+    100084: English DragonRLegPlatform
+    100086: English DragonSpine
+    100088: English DragonSpine1
+    100090: English DragonSpine2
+    100092: English DragonSpine3
+    100094: English DragonTail1
+    100096: English DragonTail2
+    100098: English DragonTail3
+    100100: RetopoGroup1
+    400000: //RootNode
+    400002: English Dragon
+    400004: English DragonHead
+    400006: English DragonHeadBone001
+    400008: English DragonHeadBone002
+    400010: English DragonHeadBone003
+    400012: English DragonHeadBone004
+    400014: English DragonLArm1
+    400016: English DragonLArm2
+    400018: English DragonLArmCollarbone
+    400020: English DragonLArmDigit01
+    400022: English DragonLArmDigit02
+    400024: English DragonLArmDigit03
+    400026: English DragonLArmDigit41
+    400028: English DragonLArmDigit42
+    400030: English DragonLArmDigit43
+    400032: English DragonLArmDigit61
+    400034: English DragonLArmDigit62
+    400036: English DragonLArmDigit63
+    400038: English DragonLArmPalm
+    400040: English DragonLLeg1
+    400042: English DragonLLeg2
+    400044: English DragonLLegPalm
+    400046: English DragonLLegPlatform
+    400048: English DragonPelvis
+    400050: English DragonRArm1
+    400052: English DragonRArm2
+    400054: English DragonRArmCollarbone
+    400056: English DragonRArmDigit01
+    400058: English DragonRArmDigit02
+    400060: English DragonRArmDigit03
+    400062: English DragonRArmDigit41
+    400064: English DragonRArmDigit42
+    400066: English DragonRArmDigit43
+    400068: English DragonRArmDigit61
+    400070: English DragonRArmDigit62
+    400072: English DragonRArmDigit63
+    400074: English DragonRArmPalm
+    400076: English DragonRibcage
+    400078: English DragonRLeg1
+    400080: English DragonRLeg2
+    400082: English DragonRLegPalm
+    400084: English DragonRLegPlatform
+    400086: English DragonSpine
+    400088: English DragonSpine1
+    400090: English DragonSpine2
+    400092: English DragonSpine3
+    400094: English DragonTail1
+    400096: English DragonTail2
+    400098: English DragonTail3
+    400100: RetopoGroup1
+    4300000: RetopoGroup1
+    7400000: Bat_bite_anim
+    9500000: //RootNode
+    13700000: RetopoGroup1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: 1617839229ceeef4fb0fbb90870cf694, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bat_bite_anim
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

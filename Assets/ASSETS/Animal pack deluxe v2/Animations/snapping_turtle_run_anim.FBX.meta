@@ -1,0 +1,202 @@
+fileFormatVersion: 2
+guid: 12db1949efec14b4982e081b8be4a6b4
+timeCreated: 1554216800
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: English Dragon
+    100002: English DragonHead67876
+    100004: English DragonHeadBone00188645
+    100006: English DragonHeadBone002422
+    100008: English DragonLLeg1
+    100010: English DragonLLeg122
+    100012: English DragonLLeg2
+    100014: English DragonLLeg223fgftr
+    100016: English DragonLLeg356567
+    100018: English DragonLLegPalm
+    100020: English DragonLLegPalm3c45445
+    100022: English DragonLLegPlatform
+    100024: English DragonLLegPlatform 1
+    100026: English DragonPelvis
+    100028: English DragonRibcage232143
+    100030: English DragonRLeg13334
+    100032: English DragonRLeg16533
+    100034: English DragonRLeg2454545
+    100036: English DragonRLeg2668787
+    100038: 'English DragonRLeg3123c '
+    100040: English DragonRLegCollarbone87877
+    100042: English DragonRLegPalm123c23
+    100044: English DragonRLegPalm77667
+    100046: English DragonRLegPlatform
+    100048: English DragonRLegPlatform 1
+    100050: English DragonSpine18998
+    100052: English DragonSpine2700
+    100054: English DragonSpine30765
+    100056: English DragonSpine55454
+    100058: English DragonTail1
+    100060: English DragonTail2
+    100062: English DragonTail3
+    100064: English DragonTail4
+    100066: English DragonTail5
+    100068: English DragonTail6
+    100070: English DragonTail7
+    100072: English DragonTail8
+    100074: Object001
+    100076: snapping_turtle_exp5_0
+    100078: //RootNode
+    400000: English Dragon
+    400002: English DragonHead67876
+    400004: English DragonHeadBone00188645
+    400006: English DragonHeadBone002422
+    400008: English DragonLLeg1
+    400010: English DragonLLeg122
+    400012: English DragonLLeg2
+    400014: English DragonLLeg223fgftr
+    400016: English DragonLLeg356567
+    400018: English DragonLLegPalm
+    400020: English DragonLLegPalm3c45445
+    400022: English DragonLLegPlatform
+    400024: English DragonLLegPlatform 1
+    400026: English DragonPelvis
+    400028: English DragonRibcage232143
+    400030: English DragonRLeg13334
+    400032: English DragonRLeg16533
+    400034: English DragonRLeg2454545
+    400036: English DragonRLeg2668787
+    400038: 'English DragonRLeg3123c '
+    400040: English DragonRLegCollarbone87877
+    400042: English DragonRLegPalm123c23
+    400044: English DragonRLegPalm77667
+    400046: English DragonRLegPlatform
+    400048: English DragonRLegPlatform 1
+    400050: English DragonSpine18998
+    400052: English DragonSpine2700
+    400054: English DragonSpine30765
+    400056: English DragonSpine55454
+    400058: English DragonTail1
+    400060: English DragonTail2
+    400062: English DragonTail3
+    400064: English DragonTail4
+    400066: English DragonTail5
+    400068: English DragonTail6
+    400070: English DragonTail7
+    400072: English DragonTail8
+    400074: Object001
+    400076: snapping_turtle_exp5_0
+    400078: //RootNode
+    4300000: snapping_turtle_exp5_0
+    7400000: Snapping_turtle_run
+    9500000: //RootNode
+    13700000: snapping_turtle_exp5_0
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default
+    second: {fileID: 2100000, guid: 687414181d434e94a96a4c3bf362c002, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Snapping_turtle_run
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: e9dd86df7ceb40b46ba364620c24c941
+timeCreated: 1544552512
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Ankle_L
+    100002: Ankle_R
+    100004: Chest_M
+    100006: Elbow_L
+    100008: Elbow_R
+    100010: Fingers1_L
+    100012: Fingers1_R
+    100014: Fingers2_L
+    100016: Fingers2_R
+    100018: Fingers3_L
+    100020: Fingers3_R
+    100022: Fingers4_L
+    100024: Fingers4_R
+    100026: hair_geo
+    100028: Head_M
+    100030: Hip_L
+    100032: Hip_R
+    100034: //RootNode
+    100036: Jaw_M
+    100038: Knee_L
+    100040: Knee_R
+    100042: Neck1_M
+    100044: Neck2_M
+    100046: Neck3_M
+    100048: Neck4_M
+    100050: Neck_M
+    100052: Object005_0
+    100054: polySurface1
+    100056: Root_M
+    100058: RootPart1_M
+    100060: RootPart2_M
+    100062: Scapula_L
+    100064: Scapula_R
+    100066: Shoulder_L
+    100068: Shoulder_R
+    100070: Spine1_M
+    100072: Spine1Part1_M
+    100074: Spine1Part2_M
+    100076: Tail0_M
+    100078: Tail1_M
+    100080: Tail2_M
+    100082: Tail3_M
+    100084: Tail4_M
+    100086: tail_hair_geo
+    100088: Toes1_L
+    100090: Toes1_R
+    100092: Toes2_L
+    100094: Toes2_R
+    100096: Toes3_L
+    100098: Toes3_R
+    100100: Toes4_L
+    100102: Toes4_R
+    100104: Wrist_L
+    100106: Wrist_R
+    400000: Ankle_L
+    400002: Ankle_R
+    400004: Chest_M
+    400006: Elbow_L
+    400008: Elbow_R
+    400010: Fingers1_L
+    400012: Fingers1_R
+    400014: Fingers2_L
+    400016: Fingers2_R
+    400018: Fingers3_L
+    400020: Fingers3_R
+    400022: Fingers4_L
+    400024: Fingers4_R
+    400026: hair_geo
+    400028: Head_M
+    400030: Hip_L
+    400032: Hip_R
+    400034: //RootNode
+    400036: Jaw_M
+    400038: Knee_L
+    400040: Knee_R
+    400042: Neck1_M
+    400044: Neck2_M
+    400046: Neck3_M
+    400048: Neck4_M
+    400050: Neck_M
+    400052: Object005_0
+    400054: polySurface1
+    400056: Root_M
+    400058: RootPart1_M
+    400060: RootPart2_M
+    400062: Scapula_L
+    400064: Scapula_R
+    400066: Shoulder_L
+    400068: Shoulder_R
+    400070: Spine1_M
+    400072: Spine1Part1_M
+    400074: Spine1Part2_M
+    400076: Tail0_M
+    400078: Tail1_M
+    400080: Tail2_M
+    400082: Tail3_M
+    400084: Tail4_M
+    400086: tail_hair_geo
+    400088: Toes1_L
+    400090: Toes1_R
+    400092: Toes2_L
+    400094: Toes2_R
+    400096: Toes3_L
+    400098: Toes3_R
+    400100: Toes4_L
+    400102: Toes4_R
+    400104: Wrist_L
+    400106: Wrist_R
+    4300000: hair_geo
+    4300002: tail_hair_geo
+    4300004: polySurface1
+    7400000: Horse_die
+    9500000: //RootNode
+    13700000: hair_geo
+    13700002: polySurface1
+    13700004: tail_hair_geo
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default1
+    second: {fileID: 2100000, guid: 4c4bf28f189f5a44083051d9e840410b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default3
+    second: {fileID: 2100000, guid: 4c4bf28f189f5a44083051d9e840410b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Horse_die
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

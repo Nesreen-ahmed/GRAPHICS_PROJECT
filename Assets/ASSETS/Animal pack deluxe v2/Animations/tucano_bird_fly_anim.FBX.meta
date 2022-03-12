@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 856662e62eea55d469b82adecdf30673
+timeCreated: 1554823168
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: English Dragon
+    100002: English DragonHead3212
+    100004: English DragonHeadBone00132
+    100006: English DragonHeadBone002332
+    100008: English DragonLArm1343
+    100010: English DragonLArm2343
+    100012: English DragonLArmCollarbone3453
+    100014: English DragonLArmPalm544
+    100016: English DragonLLeg123
+    100018: English DragonLLeg234343
+    100020: English DragonLLeg354545
+    100022: English DragonLLegDigit01
+    100024: English DragonLLegDigit02
+    100026: English DragonLLegDigit11
+    100028: English DragonLLegDigit12
+    100030: English DragonLLegDigit217676
+    100032: English DragonLLegDigit22
+    100034: English DragonLLegPalm123231
+    100036: English DragonLLegPlatform
+    100038: English DragonPelvis
+    100040: English DragonRArm1343
+    100042: English DragonRArm25454
+    100044: English DragonRArmCollarbone443
+    100046: English DragonRArmPalm5433
+    100048: English DragonRibcage4343
+    100050: English DragonRLeg145543
+    100052: English DragonRLeg23454
+    100054: English DragonRLeg3543
+    100056: English DragonRLegDigit01
+    100058: English DragonRLegDigit025544
+    100060: English DragonRLegDigit114554
+    100062: English DragonRLegDigit12
+    100064: English DragonRLegDigit21
+    100066: English DragonRLegDigit22433
+    100068: English DragonRLegPalm5644
+    100070: English DragonRLegPlatform
+    100072: English DragonSpine11554
+    100074: English DragonSpine1232
+    100076: English DragonSpine23433
+    100078: English DragonSpine24544
+    100080: English DragonTail1
+    100082: English DragonTail2
+    100084: English DragonTail3322
+    100086: Robinsonade_parrot_exp7_0_0
+    100088: //RootNode
+    400000: English Dragon
+    400002: English DragonHead3212
+    400004: English DragonHeadBone00132
+    400006: English DragonHeadBone002332
+    400008: English DragonLArm1343
+    400010: English DragonLArm2343
+    400012: English DragonLArmCollarbone3453
+    400014: English DragonLArmPalm544
+    400016: English DragonLLeg123
+    400018: English DragonLLeg234343
+    400020: English DragonLLeg354545
+    400022: English DragonLLegDigit01
+    400024: English DragonLLegDigit02
+    400026: English DragonLLegDigit11
+    400028: English DragonLLegDigit12
+    400030: English DragonLLegDigit217676
+    400032: English DragonLLegDigit22
+    400034: English DragonLLegPalm123231
+    400036: English DragonLLegPlatform
+    400038: English DragonPelvis
+    400040: English DragonRArm1343
+    400042: English DragonRArm25454
+    400044: English DragonRArmCollarbone443
+    400046: English DragonRArmPalm5433
+    400048: English DragonRibcage4343
+    400050: English DragonRLeg145543
+    400052: English DragonRLeg23454
+    400054: English DragonRLeg3543
+    400056: English DragonRLegDigit01
+    400058: English DragonRLegDigit025544
+    400060: English DragonRLegDigit114554
+    400062: English DragonRLegDigit12
+    400064: English DragonRLegDigit21
+    400066: English DragonRLegDigit22433
+    400068: English DragonRLegPalm5644
+    400070: English DragonRLegPlatform
+    400072: English DragonSpine11554
+    400074: English DragonSpine1232
+    400076: English DragonSpine23433
+    400078: English DragonSpine24544
+    400080: English DragonTail1
+    400082: English DragonTail2
+    400084: English DragonTail3322
+    400086: Robinsonade_parrot_exp7_0_0
+    400088: //RootNode
+    4300000: Robinsonade_parrot_exp7_0_0
+    7400000: Tucano_bird_fly
+    9500000: //RootNode
+    13700000: Robinsonade_parrot_exp7_0_0
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default
+    second: {fileID: 2100000, guid: 81866f7ea0dc55940a7ebfee127b15dd, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Tucano_bird_fly
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

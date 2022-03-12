@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 362eaeb51ad0b5641b97d517136c9976
+timeCreated: 1554214035
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Panther
+    100004: PantherHead232
+    100006: PantherHeadBone001332321
+    100008: PantherHeadBone0022323
+    100010: PantherHeadBone0034555332
+    100012: PantherHeadBone0047767666565
+    100014: PantherLLeg111
+    100016: PantherLLeg1213gfgf
+    100018: PantherLLeg23323232
+    100020: PantherLLeg2467767
+    100022: PantherLLegCollarbone12312
+    100024: PantherLLegDigit01323143
+    100026: PantherLLegDigit0165545hhghg
+    100028: PantherLLegPalm
+    100030: PantherLLegPalm45477
+    100032: PantherLLegPlatform
+    100034: PantherLLegPlatform 1
+    100036: PantherNeck1
+    100038: PantherNeck211122
+    100040: PantherNeck3323
+    100042: PantherNeck4
+    100044: PantherPelvis
+    100046: PantherRibcage
+    100048: PantherRLeg112323
+    100050: PantherRLeg11s2243
+    100052: PantherRLeg212a123
+    100054: PantherRLeg24454545
+    100056: PantherRLegDigit011aas5454
+    100058: PantherRLegDigit01435545454
+    100060: PantherRLegPalm311232
+    100062: PantherRLegPalm3446ff
+    100064: PantherRLegPlatform
+    100066: PantherRLegPlatform 1
+    100068: PantherRLegShoulderblade3434334
+    100070: PantherSpine1
+    100072: PantherSpine2
+    100074: PantherSpine3
+    100076: PantherSpine4
+    100078: PantherSpine5
+    100080: PantherSpine6
+    100082: PantherTail11132232
+    100084: PantherTail2223
+    100086: PantherTail3
+    100088: PantherTail4
+    100090: PantherTail5
+    100092: PantherTail6
+    100094: PantherTail7
+    100096: RetopoGroup2_0_0
+    400000: //RootNode
+    400002: Panther
+    400004: PantherHead232
+    400006: PantherHeadBone001332321
+    400008: PantherHeadBone0022323
+    400010: PantherHeadBone0034555332
+    400012: PantherHeadBone0047767666565
+    400014: PantherLLeg111
+    400016: PantherLLeg1213gfgf
+    400018: PantherLLeg23323232
+    400020: PantherLLeg2467767
+    400022: PantherLLegCollarbone12312
+    400024: PantherLLegDigit01323143
+    400026: PantherLLegDigit0165545hhghg
+    400028: PantherLLegPalm
+    400030: PantherLLegPalm45477
+    400032: PantherLLegPlatform
+    400034: PantherLLegPlatform 1
+    400036: PantherNeck1
+    400038: PantherNeck211122
+    400040: PantherNeck3323
+    400042: PantherNeck4
+    400044: PantherPelvis
+    400046: PantherRibcage
+    400048: PantherRLeg112323
+    400050: PantherRLeg11s2243
+    400052: PantherRLeg212a123
+    400054: PantherRLeg24454545
+    400056: PantherRLegDigit011aas5454
+    400058: PantherRLegDigit01435545454
+    400060: PantherRLegPalm311232
+    400062: PantherRLegPalm3446ff
+    400064: PantherRLegPlatform
+    400066: PantherRLegPlatform 1
+    400068: PantherRLegShoulderblade3434334
+    400070: PantherSpine1
+    400072: PantherSpine2
+    400074: PantherSpine3
+    400076: PantherSpine4
+    400078: PantherSpine5
+    400080: PantherSpine6
+    400082: PantherTail11132232
+    400084: PantherTail2223
+    400086: PantherTail3
+    400088: PantherTail4
+    400090: PantherTail5
+    400092: PantherTail6
+    400094: PantherTail7
+    400096: RetopoGroup2_0_0
+    4300000: RetopoGroup2_0_0
+    7400000: Cat_walk
+    9500000: //RootNode
+    13700000: RetopoGroup2_0_0
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: default
+    second: {fileID: 2100000, guid: ba55bd95339ffcd458af52fdead42bee, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Cat_walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 4d3845fe1ca49f748a4f225139e26b5b
+timeCreated: 1554215207
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Lizard
+    100004: LizardHead5656462
+    100006: LizardHeadBone001cc545
+    100008: LizardHeadBone00223xcx
+    100010: LizardLFrontLegCollarbone12321325
+    100012: LizardLFrontLegDigit11
+    100014: LizardLFrontLegLower343431
+    100016: LizardLFrontLegPalm2
+    100018: LizardLFrontLegPlatform
+    100020: LizardLFrontLegUpper66554
+    100022: LizardLLegAnkle2
+    100024: LizardLLegCalf323
+    100026: LizardLLegDigit21
+    100028: LizardLLegPlatform
+    100030: LizardLLegThigh11
+    100032: LizardNeck1
+    100034: LizardNeck2
+    100036: LizardNeck3
+    100038: LizardNeck4
+    100040: LizardPelvis
+    100042: LizardRFrontLegCollarbone5646788
+    100044: LizardRFrontLegDigit11
+    100046: LizardRFrontLegLower65633
+    100048: LizardRFrontLegPalm276688768
+    100050: LizardRFrontLegPlatform
+    100052: LizardRFrontLegUpper676445
+    100054: LizardRibcage67676
+    100056: LizardRRearLegAnkle254423
+    100058: LizardRRearLegCalf12cxx2
+    100060: LizardRRearLegDigit21
+    100062: LizardRRearLegPlatform
+    100064: LizardRRearLegThigh55344
+    100066: LizardSpine13256
+    100068: LizardSpine276764
+    100070: LizardSpine345453
+    100072: LizardSpine4454767
+    100074: LizardSpine5454577
+    100076: LizardSpine61331
+    100078: LizardTail1
+    100080: LizardTail2
+    100082: LizardTail3
+    100084: LizardTail4
+    100086: LizardTail5
+    100088: LizardTail6
+    100090: LizardTail7
+    100092: LizardTail8
+    100094: Particle View 001
+    100096: RetopoGroup2_0
+    100098: tounge11323
+    400000: //RootNode
+    400002: Lizard
+    400004: LizardHead5656462
+    400006: LizardHeadBone001cc545
+    400008: LizardHeadBone00223xcx
+    400010: LizardLFrontLegCollarbone12321325
+    400012: LizardLFrontLegDigit11
+    400014: LizardLFrontLegLower343431
+    400016: LizardLFrontLegPalm2
+    400018: LizardLFrontLegPlatform
+    400020: LizardLFrontLegUpper66554
+    400022: LizardLLegAnkle2
+    400024: LizardLLegCalf323
+    400026: LizardLLegDigit21
+    400028: LizardLLegPlatform
+    400030: LizardLLegThigh11
+    400032: LizardNeck1
+    400034: LizardNeck2
+    400036: LizardNeck3
+    400038: LizardNeck4
+    400040: LizardPelvis
+    400042: LizardRFrontLegCollarbone5646788
+    400044: LizardRFrontLegDigit11
+    400046: LizardRFrontLegLower65633
+    400048: LizardRFrontLegPalm276688768
+    400050: LizardRFrontLegPlatform
+    400052: LizardRFrontLegUpper676445
+    400054: LizardRibcage67676
+    400056: LizardRRearLegAnkle254423
+    400058: LizardRRearLegCalf12cxx2
+    400060: LizardRRearLegDigit21
+    400062: LizardRRearLegPlatform
+    400064: LizardRRearLegThigh55344
+    400066: LizardSpine13256
+    400068: LizardSpine276764
+    400070: LizardSpine345453
+    400072: LizardSpine4454767
+    400074: LizardSpine5454577
+    400076: LizardSpine61331
+    400078: LizardTail1
+    400080: LizardTail2
+    400082: LizardTail3
+    400084: LizardTail4
+    400086: LizardTail5
+    400088: LizardTail6
+    400090: LizardTail7
+    400092: LizardTail8
+    400094: Particle View 001
+    400096: RetopoGroup2_0
+    400098: tounge11323
+    4300000: RetopoGroup2_0
+    7400000: Comodo_dragon_bite
+    9500000: //RootNode
+    13700000: RetopoGroup2_0
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: 9533df5c77d800d47b9fb7d7d4c6662c, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Comodo_dragon_bite
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

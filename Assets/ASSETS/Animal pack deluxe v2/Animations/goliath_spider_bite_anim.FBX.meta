@@ -1,0 +1,236 @@
+fileFormatVersion: 2
+guid: 2651861400629d044b86e2d398b81a6f
+timeCreated: 1554215432
+licenseType: Store
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Object002
+    100004: Spider
+    100006: Spider 1
+    100008: Spider100
+    100010: Spider200
+    100012: SpiderHub
+    100014: SpiderLLeg1112233223
+    100016: SpiderLLeg13322233
+    100018: SpiderLLeg2336662
+    100020: SpiderLLeg24433
+    100022: SpiderLLeg3567567444
+    100024: SpiderLLeg3667899
+    100026: SpiderLLeg40909078787
+    100028: SpiderLLeg4987'''0'0
+    100030: SpiderLLegPlatform
+    100032: SpiderLLegPlatform 1
+    100034: SpiderRLeg0451122332
+    100036: SpiderRLeg046123666
+    100038: SpiderRLeg04778987000
+    100040: SpiderRLeg0485643337
+    100042: SpiderRLeg049445
+    100044: SpiderRLeg0507876844565
+    100046: SpiderRLeg051788844556
+    100048: SpiderRLeg0522355
+    100050: SpiderRLeg11111
+    100052: SpiderRLeg11123322
+    100054: SpiderRLeg1212132
+    100056: SpiderRLeg131321366
+    100058: SpiderRLeg14554
+    100060: SpiderRLeg1488644565
+    100062: SpiderRLeg1Platform
+    100064: SpiderRLeg1Platform001
+    100066: SpiderRLeg2112332
+    100068: SpiderRLeg224454221111
+    100070: SpiderRLeg232151
+    100072: SpiderRLeg2377788
+    100074: SpiderRLeg2478909090
+    100076: SpiderRLeg27755
+    100078: SpiderRLeg2Platform
+    100080: SpiderRLeg300997
+    100082: SpiderRLeg31434343
+    100084: SpiderRLeg3212377676
+    100086: SpiderRLeg33997888
+    100088: SpiderRLeg3477456556
+    100090: SpiderRLeg35676585
+    100092: SpiderRLeg3Platform
+    100094: SpiderRLeg415545454
+    100096: SpiderRLeg42477673
+    100098: SpiderRLeg4398707
+    100100: SpiderRLeg44556564
+    100102: SpiderRLeg449989898666
+    100104: SpiderRLeg4878900909
+    100106: SpiderRLeg4Platform
+    100108: SpiderRLeg4Platform001
+    100110: SpiderRLegPlatform
+    100112: SpiderRLegPlatform 1
+    400000: //RootNode
+    400002: Object002
+    400004: Spider
+    400006: Spider 1
+    400008: Spider100
+    400010: Spider200
+    400012: SpiderHub
+    400014: SpiderLLeg1112233223
+    400016: SpiderLLeg13322233
+    400018: SpiderLLeg2336662
+    400020: SpiderLLeg24433
+    400022: SpiderLLeg3567567444
+    400024: SpiderLLeg3667899
+    400026: SpiderLLeg40909078787
+    400028: SpiderLLeg4987'''0'0
+    400030: SpiderLLegPlatform
+    400032: SpiderLLegPlatform 1
+    400034: SpiderRLeg0451122332
+    400036: SpiderRLeg046123666
+    400038: SpiderRLeg04778987000
+    400040: SpiderRLeg0485643337
+    400042: SpiderRLeg049445
+    400044: SpiderRLeg0507876844565
+    400046: SpiderRLeg051788844556
+    400048: SpiderRLeg0522355
+    400050: SpiderRLeg11111
+    400052: SpiderRLeg11123322
+    400054: SpiderRLeg1212132
+    400056: SpiderRLeg131321366
+    400058: SpiderRLeg14554
+    400060: SpiderRLeg1488644565
+    400062: SpiderRLeg1Platform
+    400064: SpiderRLeg1Platform001
+    400066: SpiderRLeg2112332
+    400068: SpiderRLeg224454221111
+    400070: SpiderRLeg232151
+    400072: SpiderRLeg2377788
+    400074: SpiderRLeg2478909090
+    400076: SpiderRLeg27755
+    400078: SpiderRLeg2Platform
+    400080: SpiderRLeg300997
+    400082: SpiderRLeg31434343
+    400084: SpiderRLeg3212377676
+    400086: SpiderRLeg33997888
+    400088: SpiderRLeg3477456556
+    400090: SpiderRLeg35676585
+    400092: SpiderRLeg3Platform
+    400094: SpiderRLeg415545454
+    400096: SpiderRLeg42477673
+    400098: SpiderRLeg4398707
+    400100: SpiderRLeg44556564
+    400102: SpiderRLeg449989898666
+    400104: SpiderRLeg4878900909
+    400106: SpiderRLeg4Platform
+    400108: SpiderRLeg4Platform001
+    400110: SpiderRLegPlatform
+    400112: SpiderRLegPlatform 1
+    4300000: Object002
+    7400000: Goliath_spider_bite
+    9500000: //RootNode
+    13700000: Object002
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Default
+    second: {fileID: 2100000, guid: bad5dac09c6a1e3499af3fedb7596b5d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Goliath_spider_bite
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
