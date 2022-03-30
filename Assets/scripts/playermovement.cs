@@ -11,7 +11,6 @@ public class playermovement : MonoBehaviour
         
     }
 
-    
     void Update()
     {
         if(Input.GetKey(KeyCode.UpArrow))
@@ -26,6 +25,7 @@ public class playermovement : MonoBehaviour
         {
             transform.position += transform.right * speed * Time.deltaTime;
         }
+      
          if(Input.GetKey(KeyCode.LeftArrow))
         {
             transform.position -= transform.right * speed * Time.deltaTime;
@@ -40,4 +40,5 @@ public class playermovement : MonoBehaviour
             transform.Rotate(new Vector3(0,rotation_speed*Time.deltaTime,0));
         }
     }
+
 }
