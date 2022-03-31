@@ -4,41 +4,39 @@ using UnityEngine;
 
 public class playermovement : MonoBehaviour
 {
-    float speed = 50;
+    Rigidbody rb;
+    float xInput;
+    float zInput;
+    public float speed;
     float rotation_speed = 100;
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
     void Start()
     {
-        
+
     }
 
     void Update()
     {
-        if(Input.GetKey(KeyCode.UpArrow))
-        {
-            transform.position += transform.forward * speed * Time.deltaTime;
-        }
-         if(Input.GetKey(KeyCode.DownArrow))
-        {
-            transform.position -= transform.forward * speed * Time.deltaTime;
-        }
-         if(Input.GetKey(KeyCode.RightArrow))
-        {
-            transform.position += transform.right * speed * Time.deltaTime;
-        }
-      
-         if(Input.GetKey(KeyCode.LeftArrow))
-        {
-            transform.position -= transform.right * speed * Time.deltaTime;
-        }
+        xInput = Input.GetAxis("Horizontal");
+        zInput = Input.GetAxis("Vertical");
+    }
+    private void FixedUpdate()
+    {
+        float xVelocity = xInput * speed;
+        float zVelocity = zInput * speed;
 
-        if(Input.GetKey(KeyCode.A))
+        rb.velocity = new Vector3(xVelocity, rb.velocity.y, zVelocity);
+
+        if (Input.GetKey(KeyCode.A))
         {
-            transform.Rotate(new Vector3(0,-rotation_speed*Time.deltaTime,0));
+            transform.Rotate(new Vector3(0, -rotation_speed * Time.deltaTime, 0));
         }
-        else if(Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D))
         {
-            transform.Rotate(new Vector3(0,rotation_speed*Time.deltaTime,0));
+            transform.Rotate(new Vector3(0, rotation_speed * Time.deltaTime, 0));
         }
     }
-
 }
