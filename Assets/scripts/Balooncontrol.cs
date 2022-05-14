@@ -13,6 +13,6 @@ public class Balooncontrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector2(transform.position.x, transform.position.y + 0.9f);
+        transform.position = new Vector2(transform.position.x, transform.position.y + 3f);
     }
 }
