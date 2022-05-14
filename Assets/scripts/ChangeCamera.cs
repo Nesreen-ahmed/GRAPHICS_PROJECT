@@ -7,8 +7,6 @@ public class ChangeCamera : MonoBehaviour
     public float sec;
     public GameObject fromCamera;
     public GameObject toCamera;
-    AudioListener cameraOneAudioLis;
-    AudioListener cameraTwoAudioLis;
     void Start()
     {
         StartCoroutine(ExecuteAfterTime(sec));
