@@ -2332,6 +2332,8 @@ GameObject:
   - component: {fileID: 334484158}
   - component: {fileID: 334484157}
   - component: {fileID: 334484155}
+  - component: {fileID: 334484160}
+  - component: {fileID: 334484156}
   m_Layer: 0
   m_Name: Cube3
   m_TagString: Untagged
@@ -2352,6 +2354,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &334484156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334484154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8847838dd22d6f4bbc08895fc3aedf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenename: 
 --- !u!23 &334484157
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2413,8 +2428,21 @@ Transform:
   m_LocalScale: {x: 1.8237, y: 50.17275, z: 88.488304}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &334484160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 334484154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8847838dd22d6f4bbc08895fc3aedf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenename: 
 --- !u!1 &336260542 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1698917995293774, guid: 67cc81d5424ea4fccbc7267473502366, type: 3}
@@ -3628,6 +3656,7 @@ GameObject:
   - component: {fileID: 524268745}
   - component: {fileID: 524268743}
   - component: {fileID: 524268744}
+  - component: {fileID: 524268748}
   m_Layer: 0
   m_Name: Cube1
   m_TagString: Untagged
@@ -3660,23 +3689,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1184489017}
-          m_TargetAssemblyTypeName: scenechange, Assembly-CSharp
-          m_MethodName: changescene
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: situation1
-            m_BoolArgument: 0
-          m_CallState: 2
+  m_Delegates: []
 --- !u!23 &524268745
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3734,12 +3747,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524268742}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 161.2, y: 19.104, z: 527.0301}
-  m_LocalScale: {x: 5.1151, y: 44.362877, z: 66.333855}
+  m_LocalPosition: {x: 160.7, y: 19.104, z: 527.0301}
+  m_LocalScale: {x: 5.1151, y: 44.362877, z: 33}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &524268748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524268742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8847838dd22d6f4bbc08895fc3aedf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenename: situation1
 --- !u!1001 &538504699
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4568,7 +4594,6 @@ GameObject:
   - component: {fileID: 666873378}
   - component: {fileID: 666873377}
   - component: {fileID: 666873376}
-  - component: {fileID: 666873379}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -4634,20 +4659,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &666873379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 666873375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd6d65a70a6ae084699a06150e8a320d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  LevelToLoad: 
-  timer: 5
 --- !u!4 &673672786 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 409630, guid: c17833375ea78984db65d0f43c6d76d1, type: 3}
@@ -7036,6 +7047,7 @@ GameObject:
   - component: {fileID: 1009000323}
   - component: {fileID: 1009000322}
   - component: {fileID: 1009000320}
+  - component: {fileID: 1009000321}
   m_Layer: 0
   m_Name: Cube6
   m_TagString: Untagged
@@ -7056,6 +7068,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1009000321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009000319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8847838dd22d6f4bbc08895fc3aedf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenename: 
 --- !u!23 &1009000322
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7117,7 +7142,7 @@ Transform:
   m_LocalScale: {x: 0.21083532, y: 45.70822, z: 65.550766}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1024819882 stripped
 Transform:
@@ -7740,6 +7765,7 @@ GameObject:
   - component: {fileID: 1170127189}
   - component: {fileID: 1170127188}
   - component: {fileID: 1170127186}
+  - component: {fileID: 1170127187}
   m_Layer: 0
   m_Name: Cube5
   m_TagString: Untagged
@@ -7760,6 +7786,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1170127187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170127185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8847838dd22d6f4bbc08895fc3aedf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenename: 
 --- !u!23 &1170127188
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7821,50 +7860,7 @@ Transform:
   m_LocalScale: {x: 1, y: 52.927883, z: 59.314724}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1184489016
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1184489018}
-  - component: {fileID: 1184489017}
-  m_Layer: 0
-  m_Name: changescene
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1184489017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1184489016}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8847838dd22d6f4bbc08895fc3aedf9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &1184489018
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1184489016}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 223.06348, y: -111.57922, z: 228.70425}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1196009410 stripped
 Transform:
@@ -8684,6 +8680,7 @@ GameObject:
   - component: {fileID: 1260302404}
   - component: {fileID: 1260302403}
   - component: {fileID: 1260302401}
+  - component: {fileID: 1260302402}
   m_Layer: 0
   m_Name: Cube4
   m_TagString: Untagged
@@ -8704,6 +8701,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1260302402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260302400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8847838dd22d6f4bbc08895fc3aedf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenename: 
 --- !u!23 &1260302403
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8765,7 +8775,7 @@ Transform:
   m_LocalScale: {x: 1.8328, y: 51.55155, z: 84.801895}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1260417981
 PrefabInstance:
@@ -11450,26 +11460,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1774100457}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Script: {fileID: 11500000, guid: f8847838dd22d6f4bbc08895fc3aedf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 0
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1184489017}
-          m_TargetAssemblyTypeName: scenechange, Assembly-CSharp
-          m_MethodName: changescene
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: situation2
-            m_BoolArgument: 0
-          m_CallState: 2
+  scenename: situation2
 --- !u!23 &1774100460
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11527,11 +11521,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774100457}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 328.1, y: 27.1262, z: 406.7944}
-  m_LocalScale: {x: 4.1299157, y: 58.24052, z: -121.717896}
+  m_LocalPosition: {x: 328.1, y: 27.1262, z: 423.9}
+  m_LocalScale: {x: 4.1299157, y: 58.24052, z: -40}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1776762026
 PrefabInstance:
