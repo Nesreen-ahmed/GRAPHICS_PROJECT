@@ -6,11 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/memoryCard.unity
-    guid: 86756cf091bedde458abadbf102e73e1
+    path: Assets/Scenes/menu.unity
+    guid: 3494df1b824f4f146820515cc31db705
   - enabled: 1
     path: Assets/Scenes/start.unity
     guid: 9124bdabc24228b49b1286cf113a0f2e
+  - enabled: 1
+    path: Assets/Scenes/memoryCard.unity
+    guid: 86756cf091bedde458abadbf102e73e1
   - enabled: 1
     path: Assets/Scenes/quizes/happyQuiz.unity
     guid: c5e20301f8329614bafd5a3ea7cce73a
