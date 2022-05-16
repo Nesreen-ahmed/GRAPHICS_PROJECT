@@ -11,12 +11,29 @@ public class HappyScore : MonoBehaviour
     private static int angryScore = 0;
     private static int fearScore = 0;
     private static int discostScore = 0;
-    private static int surprisedScore = 0;
+    private static int surprizeScore = 0;
     string temp;
     static string sn="";
     void Start()
     {
         temp = SceneManager.GetActiveScene().name;
+    }
+
+    private void Awake()
+    {
+
+        if (temp == "happyQuiz")
+            happyScore = 0;
+        else if (temp == "sadQuiz")
+            sadScore = 0;
+        else if (temp == "angryQuiz")
+            angryScore = 0;
+        else if (temp == "fearQuiz")
+            fearScore = 0;
+        else if (temp == "discostQuiz")
+            discostScore = 0;
+        else if (temp == "surprizeQuiz")
+            surprizeScore = 0;
     }
     public void onclick()
     {
@@ -31,7 +48,7 @@ public class HappyScore : MonoBehaviour
         else if (temp == "discostQuiz")
             discostScore++;
         else if (temp == "surprizeQuiz")
-            surprisedScore++;
+            surprizeScore++;
         sn = temp;
     }
 
@@ -59,23 +76,8 @@ public class HappyScore : MonoBehaviour
     {
         return discostScore;
     }
-    public int getSurprisedScore()
+    public int getSurprizeScore()
     {
-        return surprisedScore;
-    }
-    public void replay(string emotion)
-    {
-        if (emotion == "happyQuiz")
-            happyScore=0;
-        else if (emotion == "sadQuiz")
-            sadScore=0;
-        else if (emotion == "angryQuiz")
-            angryScore=0;
-        else if (emotion == "fearQuiz")
-            fearScore=0;
-        else if (emotion == "discostQuiz")
-            discostScore=0;
-        else if (emotion== "surprisedQuiz")
-            surprisedScore=0;
+        return surprizeScore;
     }
 }

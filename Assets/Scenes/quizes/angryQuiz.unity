@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3247,6 +3247,7 @@ MonoBehaviour:
   - {fileID: 83545306}
   - {fileID: 1950296849}
   - {fileID: 1398223653}
+  total: []
   sText: {fileID: 0}
 --- !u!223 &1046466370
 Canvas:
@@ -3893,18 +3894,6 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 32930048}
-          m_TargetAssemblyTypeName: HappyScore, Assembly-CSharp
-          m_MethodName: replay
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: angryQuiz
-            m_BoolArgument: 0
-          m_CallState: 2
         - m_Target: {fileID: 727054014}
           m_TargetAssemblyTypeName: scenechange, Assembly-CSharp
           m_MethodName: changeScene

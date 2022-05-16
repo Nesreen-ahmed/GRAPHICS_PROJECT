@@ -178,18 +178,6 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1599693611}
-          m_TargetAssemblyTypeName: HappyScore, Assembly-CSharp
-          m_MethodName: replay
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: fearQuiz
-            m_BoolArgument: 1
-          m_CallState: 2
         - m_Target: {fileID: 549700870}
           m_TargetAssemblyTypeName: scenechange, Assembly-CSharp
           m_MethodName: changeScene
@@ -901,6 +889,7 @@ MonoBehaviour:
   - {fileID: 549489376}
   - {fileID: 883327581}
   - {fileID: 225786916}
+  total: []
   sText: {fileID: 0}
 --- !u!223 &153230159
 Canvas:

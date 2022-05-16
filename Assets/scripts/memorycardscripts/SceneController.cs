@@ -10,8 +10,8 @@ public class SceneController : MonoBehaviour
     public const float offsetY = 10f;
     [SerializeField] private MainCard originalCard;
     [SerializeField] private Sprite[] images;
-    public sound s;
-    public sound q;
+    public AudioSource s;
+    public AudioSource q;
 
     private void Start()
     {
@@ -71,7 +71,6 @@ public class SceneController : MonoBehaviour
         get { return _secondRevealed == null; }
     }
 
-    public sound Q { get => q; set => q = value; }
 
     public void CardRevealed(MainCard card)
     {
@@ -88,14 +87,24 @@ public class SceneController : MonoBehaviour
     
     private IEnumerator CheckMatch()
     {
-        
+        GameObject g = new GameObject();
+        g.AddComponent<change_scene>();
+        change_scene ch = g.GetComponent<change_scene>();
         if (_firstRevealed.id == _secondRevealed.id)
         {
             _score++;
             scoreLabel.text = "Score: " + _score;
-            s.play();
+            _firstRevealed.gameObject.SetActive(false);
+            _secondRevealed.gameObject.SetActive(false);
             if (_score == 6)
-            { q.play(); }
+            {
+                q.Play();
+            }
+            else
+            {
+                s.Play();
+            }
+            
           
         }
         else

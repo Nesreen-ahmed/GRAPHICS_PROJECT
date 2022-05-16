@@ -10,11 +10,10 @@ public class change_scene : MonoBehaviour
 
     void Update()
     {
-        timer -= Time.deltaTime;
-        if (timer <= 0)
-        {
-            SceneManager.LoadScene(LevelToLoad);
-        }
-
+            timer -= Time.deltaTime;
+            if (timer <= 0)
+            {
+                SceneManager.LoadScene(LevelToLoad);
+            }
     }
 }
