@@ -1,16 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class SceneController : MonoBehaviour
 {
     public const int gridRows = 2;
     public const int gridCols = 6;
     public const float offsetX = 7.5f;
     public const float offsetY = 10f;
-
     [SerializeField] private MainCard originalCard;
     [SerializeField] private Sprite[] images;
+    public sound s;
+    public sound q;
 
     private void Start()
     {
@@ -70,6 +71,8 @@ public class SceneController : MonoBehaviour
         get { return _secondRevealed == null; }
     }
 
+    public sound Q { get => q; set => q = value; }
+
     public void CardRevealed(MainCard card)
     {
         if (_firstRevealed == null)
@@ -82,13 +85,18 @@ public class SceneController : MonoBehaviour
             StartCoroutine(CheckMatch());
         }
     }
-
+    
     private IEnumerator CheckMatch()
     {
+        
         if (_firstRevealed.id == _secondRevealed.id)
         {
             _score++;
             scoreLabel.text = "Score: " + _score;
+            s.play();
+            if (_score == 6)
+            { q.play(); }
+          
         }
         else
         {
