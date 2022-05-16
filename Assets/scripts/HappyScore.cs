@@ -13,7 +13,7 @@ public class HappyScore : MonoBehaviour
     private static int discostScore = 0;
     private static int surprisedScore = 0;
     string temp;
-    string sn="";
+    static string sn="";
     void Start()
     {
         temp = SceneManager.GetActiveScene().name;
