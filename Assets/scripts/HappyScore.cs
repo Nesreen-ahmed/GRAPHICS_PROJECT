@@ -30,7 +30,7 @@ public class HappyScore : MonoBehaviour
             fearScore++;
         else if (temp == "discostQuiz")
             discostScore++;
-        else if (temp == "surprisedQuiz")
+        else if (temp == "surprizeQuiz")
             surprisedScore++;
         sn = temp;
     }
