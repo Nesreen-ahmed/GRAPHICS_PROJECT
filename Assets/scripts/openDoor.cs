@@ -32,21 +32,21 @@ public class openDoor : MonoBehaviour
         else if (name == "fearQuiz")
             {
                 open[2].transform.eulerAngles = new Vector3(0f, -90f, 0f);
-                close[2].transform.eulerAngles = new Vector3(0f, 82.641f,0f);
+                close[2].transform.eulerAngles = new Vector3(0f, 170f, 0f);
             maged.transform.position = new Vector3(232.6f, 1.5f, 370.4f);
             maged.transform.eulerAngles = new Vector3(0f, 139.76f, 0f);
         }
         else if (name == "discostQuiz")
             {
                 open[3].transform.eulerAngles = new Vector3(0f, 11.078f, 0f);
-                close[3].transform.eulerAngles = new Vector3(0f, 81.508f, 0f);
+                close[3].transform.eulerAngles = new Vector3(0f, 0f, 0f);
                 maged.transform.position = new Vector3(327.8f, 1.5f, 207.3f);
                 maged.transform.eulerAngles = new Vector3(0f, 232.517f, 0f);
         }
         else if (name == "surprizeQuiz")
             {
                 open[4].transform.eulerAngles = new Vector3(0f, -40f, 0f);
-                close[4].transform.eulerAngles = new Vector3(0f, 84.311f, 0f);
+                close[4].transform.eulerAngles = new Vector3(0f, 160f, 0f);
                 maged.transform.position = new Vector3(300f, 1.5f, 122.2f);
                 maged.transform.eulerAngles = new Vector3(0f, 124.277f, 0f);
         }

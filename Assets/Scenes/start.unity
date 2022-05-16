@@ -14942,26 +14942,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
---- !u!114 &2087925082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2087925078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abc3811a441d9734291885044991514e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  open:
-  - {fileID: 1211437145}
-  - {fileID: 1925982784}
-  - {fileID: 492755839}
-  - {fileID: 49961139}
-  - {fileID: 19845144}
-  close: []
-  maged: {fileID: 0}
 --- !u!4 &2087925083 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6732272969251719349, guid: 8c13b01d8175a084aa254d6c6b56ac00, type: 3}
