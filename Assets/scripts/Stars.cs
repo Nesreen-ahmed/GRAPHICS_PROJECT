@@ -132,6 +132,7 @@ public class Stars : MonoBehaviour
                 stars[1].SetActive(true);
                 stars[2].SetActive(true);
             }
+            sText.text = ST.ToString();
         }
         else if (StarAppear == "sadQuiz")
         {
@@ -149,6 +150,7 @@ public class Stars : MonoBehaviour
                 stars[1].SetActive(true);
                 stars[2].SetActive(true);
             }
+            sText.text = ST.ToString();
         }
         else if (StarAppear == "angryQuiz")
         {
@@ -166,6 +168,7 @@ public class Stars : MonoBehaviour
                 stars[1].SetActive(true);
                 stars[2].SetActive(true);
             }
+            sText.text = ST.ToString();
         }
         else if (StarAppear == "fearQuiz")
         {
@@ -183,6 +186,7 @@ public class Stars : MonoBehaviour
                 stars[1].SetActive(true);
                 stars[2].SetActive(true);
             }
+            sText.text = ST.ToString();
         }
         else if (StarAppear == "discostQuiz")
         {
@@ -200,6 +204,7 @@ public class Stars : MonoBehaviour
                 stars[1].SetActive(true);
                 stars[2].SetActive(true);
             }
+            sText.text = ST.ToString();
         }
         else if (StarAppear == "surprizeQuiz")
         {
@@ -217,6 +222,7 @@ public class Stars : MonoBehaviour
                 stars[1].SetActive(true);
                 stars[2].SetActive(true);
             }
+            sText.text = ST.ToString();
         }
     }
 }

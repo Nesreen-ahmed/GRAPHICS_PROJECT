@@ -562,6 +562,7 @@ GameObject:
   - component: {fileID: 116814532}
   - component: {fileID: 116814534}
   - component: {fileID: 116814533}
+  - component: {fileID: 116814535}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -585,8 +586,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5107539}
-  m_AnchoredPosition: {x: -56, y: 70}
-  m_SizeDelta: {x: 576.4565, y: 128.4674}
+  m_AnchoredPosition: {x: -81.93219, y: 104.576294}
+  m_SizeDelta: {x: 628.3209, y: 197.6201}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &116814533
 MonoBehaviour:
@@ -610,18 +611,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 55
+    m_FontSize: 80
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 55
+    m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: "\u0629\uFEAE\uFEDB\u0627\uFEAC\uFEDF\u0627 \u0631\uFE8E\uFE92\uFE98\uFEA7\u0627"
 --- !u!222 &116814534
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -630,6 +631,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 116814531}
   m_CullTransparentMesh: 1
+--- !u!114 &116814535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116814531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a1b70f56c1e7e48958997343794847, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Text: "\u0627\u062E\u062A\u0628\u0627\u0631 \u0627\u0644\u0630\u0627\u0643\u0631\u0629"
+  ShowTashkeel: 0
+  UseHinduNumbers: 0
 --- !u!1 &281519606
 GameObject:
   m_ObjectHideFlags: 0
@@ -870,7 +886,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &349110425
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1583,7 +1599,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!61 &2094123897
 BoxCollider2D:
   m_ObjectHideFlags: 0

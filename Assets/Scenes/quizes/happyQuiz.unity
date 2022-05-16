@@ -2767,7 +2767,7 @@ MonoBehaviour:
   - {fileID: 689964577}
   - {fileID: 1446295777}
   total: []
-  sText: {fileID: 0}
+  sText: {fileID: 1706242855}
 --- !u!223 &666381510
 Canvas:
   m_ObjectHideFlags: 0
@@ -6261,8 +6261,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000019073, y: -220}
-  m_SizeDelta: {x: 223.9666, y: 74.4985}
+  m_AnchoredPosition: {x: -8.6441, y: -205.09}
+  m_SizeDelta: {x: 241.2548, y: 104.31}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1706242855
 MonoBehaviour:
@@ -6286,11 +6286,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 60
-    m_FontStyle: 2
+    m_FontSize: 80
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 6
-    m_MaxSize: 60
+    m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
