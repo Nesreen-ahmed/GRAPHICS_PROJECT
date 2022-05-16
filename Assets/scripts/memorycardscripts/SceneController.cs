@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour
 {
     public const int gridRows = 2;
@@ -12,6 +13,7 @@ public class SceneController : MonoBehaviour
     [SerializeField] private Sprite[] images;
     public AudioSource s;
     public AudioSource q;
+    public GameObject ballon;
 
     private void Start()
     {
@@ -87,25 +89,29 @@ public class SceneController : MonoBehaviour
     
     private IEnumerator CheckMatch()
     {
-        GameObject g = new GameObject();
-        g.AddComponent<change_scene>();
-        change_scene ch = g.GetComponent<change_scene>();
         if (_firstRevealed.id == _secondRevealed.id)
         {
             _score++;
             scoreLabel.text = "Score: " + _score;
-            _firstRevealed.gameObject.SetActive(false);
-            _secondRevealed.gameObject.SetActive(false);
             if (_score == 6)
             {
                 q.Play();
+                ballon.SetActive(true); 
+                yield return new WaitForSeconds(2f);
+                _firstRevealed.gameObject.SetActive(false);
+                _secondRevealed.gameObject.SetActive(false);
+                yield return new WaitForSeconds(2f);
+                SceneManager.LoadScene("menu");
             }
             else
             {
                 s.Play();
             }
-            
-          
+
+            yield return new WaitForSeconds(2f);
+            _firstRevealed.gameObject.SetActive(false);
+            _secondRevealed.gameObject.SetActive(false);
+
         }
         else
         {
