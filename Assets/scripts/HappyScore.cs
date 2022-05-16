@@ -13,6 +13,7 @@ public class HappyScore : MonoBehaviour
     private static int discostScore = 0;
     private static int surprisedScore = 0;
     string temp;
+    string sn="";
     void Start()
     {
         temp = SceneManager.GetActiveScene().name;
@@ -31,9 +32,13 @@ public class HappyScore : MonoBehaviour
             discostScore++;
         else if (temp == "surprisedQuiz")
             surprisedScore++;
-        //scoreText.text = happyScore.ToString();
+        sn = temp;
     }
 
+    public string GETsceneName()
+    {
+        return sn;
+    }
     public int  getHappyScore()
     {
         return happyScore;

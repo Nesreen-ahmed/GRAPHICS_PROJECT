@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2395,7 +2395,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: happyQuiz
+          m_StringArgument: discostQuiz
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &754536184
@@ -2707,19 +2707,19 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: happyQuiz
+            m_StringArgument: discostQuiz
             m_BoolArgument: 1
           m_CallState: 2
-        - m_Target: {fileID: 0}
+        - m_Target: {fileID: 849023323}
           m_TargetAssemblyTypeName: scenechange, Assembly-CSharp
-          m_MethodName: changescene
+          m_MethodName: changeScene
           m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: happyQuiz
+            m_StringArgument: discostQuiz
             m_BoolArgument: 1
           m_CallState: 2
 --- !u!114 &807458461
@@ -2760,6 +2760,55 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 807458458}
   m_CullTransparentMesh: 1
+--- !u!1 &849023321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 849023322}
+  - component: {fileID: 849023323}
+  m_Layer: 5
+  m_Name: changeScene
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &849023322
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849023321}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1573309592}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &849023323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849023321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8847838dd22d6f4bbc08895fc3aedf9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenename: 
 --- !u!1 &889291551
 GameObject:
   m_ObjectHideFlags: 0
@@ -2824,7 +2873,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000061035, y: -2.5}
+  m_AnchoredPosition: {x: -0.000061035156, y: -2.5}
   m_SizeDelta: {x: -0.00024414, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &955343842
@@ -5644,7 +5693,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1573309587}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
@@ -5655,6 +5704,7 @@ RectTransform:
   - {fileID: 709360623}
   - {fileID: 1295328251}
   - {fileID: 807458459}
+  - {fileID: 849023322}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6279,7 +6329,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: happyQuiz
+          m_StringArgument: discostQuiz
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1573309587}
@@ -7461,7 +7511,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uFE90\uFEBF\uFE8E\uFECF"
+  m_Text: "\u0632\u0627\uFEB0\uFE8C\uFEE4\uFEB7\uFEFB\u0627"
 --- !u!114 &1979860273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7474,7 +7524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9a1b70f56c1e7e48958997343794847, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Text: "\u063A\u0627\u0636\u0628"
+  Text: "\u0627\u0644\u0627\u0634\u0645\u0626\u0632\u0627\u0632\n"
   ShowTashkeel: 0
   UseHinduNumbers: 0
 --- !u!222 &1979860274
