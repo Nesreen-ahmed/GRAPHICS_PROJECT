@@ -80,4 +80,28 @@ public class HappyScore : MonoBehaviour
     {
         return surprizeScore;
     }
+    public void replay(string emotion)
+    {
+        if (emotion == "happyQuiz")
+            happyScore = 0;
+        else if (emotion == "sadQuiz")
+            sadScore = 0;
+        else if (emotion == "angryQuiz")
+            angryScore = 0;
+        else if (emotion == "fearQuiz")
+            fearScore = 0;
+        else if (emotion == "discostQuiz")
+            discostScore = 0;
+        else if (emotion == "surprizeQuiz")
+            surprizeScore = 0;
+    }
+    public void replay2()
+    {
+            happyScore = 0;
+            sadScore = 0;
+            angryScore = 0;
+            fearScore = 0;
+            discostScore = 0;
+            surprizeScore = 0;
+    }
 }

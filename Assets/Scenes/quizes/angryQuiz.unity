@@ -2540,6 +2540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 727054013}
   - component: {fileID: 727054014}
+  - component: {fileID: 727054015}
   m_Layer: 0
   m_Name: changeScene
   m_TagString: Untagged
@@ -2574,6 +2575,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scenename: totalScore
+--- !u!114 &727054015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 727054012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8aab500827d1394e8c07ed01155050f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &797280362
 GameObject:
   m_ObjectHideFlags: 0
@@ -3909,6 +3922,18 @@ MonoBehaviour:
         - m_Target: {fileID: 727054014}
           m_TargetAssemblyTypeName: scenechange, Assembly-CSharp
           m_MethodName: changeScene
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: angryQuiz
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 727054015}
+          m_TargetAssemblyTypeName: HappyScore, Assembly-CSharp
+          m_MethodName: replay
           m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
