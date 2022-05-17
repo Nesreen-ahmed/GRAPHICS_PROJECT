@@ -525,7 +525,7 @@ GameObject:
   - component: {fileID: 108398474}
   - component: {fileID: 108398473}
   m_Layer: 5
-  m_Name: no
+  m_Name: yes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -548,7 +548,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -368.68, y: -286}
+  m_AnchoredPosition: {x: 413, y: -286}
   m_SizeDelta: {x: 264.39, y: 76.413}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &108398473
@@ -568,7 +568,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 522901251}
+        - m_Target: {fileID: 2021943063}
           m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_MethodName: Play
           m_Mode: 1
@@ -584,7 +584,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 522901251}
+        - m_Target: {fileID: 2021943063}
           m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_MethodName: Stop
           m_Mode: 1
@@ -634,7 +634,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 0.9411765, g: 1, b: 0.9411765, a: 1}
     m_HighlightedColor: {r: 0.6901961, g: 0.76862746, b: 0.87058824, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 0, g: 0.58431375, b: 0.043137256, a: 1}
     m_SelectedColor: {r: 0.9411765, g: 1, b: 0.9411765, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -703,7 +703,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 522901251}
+      - m_Target: {fileID: 2021943063}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Stop
         m_Mode: 1
@@ -2565,7 +2565,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uFEE2\uFECC\uFEE7"
+  m_Text: "\uFEFB"
 --- !u!114 &617360343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2578,7 +2578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9a1b70f56c1e7e48958997343794847, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Text: "\u0646\u0639\u0645"
+  Text: "\u0644\u0627"
   ShowTashkeel: 0
   UseHinduNumbers: 0
 --- !u!222 &617360344
@@ -2933,7 +2933,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uFEAA\uFEF4\uFECC\uFEB3"
+  m_Text: "\uFED2\uFE8B\uFE8E\uFEA7"
 --- !u!114 &850129706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2946,7 +2946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9a1b70f56c1e7e48958997343794847, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Text: "\u0633\u0639\u064A\u062F"
+  Text: "\u062E\u0627\u0626\u0641"
   ShowTashkeel: 0
   UseHinduNumbers: 0
 --- !u!222 &850129707
@@ -3289,9 +3289,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1128686364}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
+      - m_Target: {fileID: 1128686363}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3301,9 +3301,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1359173986}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
+      - m_Target: {fileID: 1359173982}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3407,7 +3407,7 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &951833243
 MonoBehaviour:
@@ -6597,7 +6597,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uFEFB"
+  m_Text: "\uFEE2\uFECC\uFEE7"
 --- !u!114 &1715589370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6610,7 +6610,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9a1b70f56c1e7e48958997343794847, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Text: "\u0644\u0627"
+  Text: "\u0646\u0639\u0645"
   ShowTashkeel: 0
   UseHinduNumbers: 0
 --- !u!222 &1715589371
@@ -6731,7 +6731,7 @@ GameObject:
   - component: {fileID: 1812263477}
   - component: {fileID: 1812263476}
   m_Layer: 5
-  m_Name: yes
+  m_Name: no
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6754,7 +6754,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2021943063}
+        - m_Target: {fileID: 522901251}
           m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_MethodName: Play
           m_Mode: 1
@@ -6770,7 +6770,7 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 2021943063}
+        - m_Target: {fileID: 522901251}
           m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
           m_MethodName: Stop
           m_Mode: 1
@@ -6820,7 +6820,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 0.9411765, g: 1, b: 0.9411765, a: 1}
     m_HighlightedColor: {r: 0.6901961, g: 0.76862746, b: 0.87058824, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 0.8627451, g: 0.078431375, b: 0.23529412, a: 1}
     m_SelectedColor: {r: 0.9411765, g: 1, b: 0.9411765, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -6877,7 +6877,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 2021943063}
+      - m_Target: {fileID: 522901251}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
         m_MethodName: Stop
         m_Mode: 1
@@ -6992,7 +6992,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 392.68, y: -286}
+  m_AnchoredPosition: {x: -370, y: -286}
   m_SizeDelta: {x: 264.3886, y: 76.4074}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1813632786
